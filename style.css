@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(221, 243, 188);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 110px;
+    background: white;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.left {
+    background: url('/form.jpg');
+    width: 30%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.left .numbers {
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.left .numbers .first {
+    background: rgb(221, 243, 188);
+    color: #000;
+}
+
+.left .numbers h5 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.left .steps {
+    margin-top: 90px;
+}
+
+.left .steps div{
+    margin-bottom: 15px;
+}
+
+.left .steps span{
+    color: rgb(175, 171, 171);
+}
+
+.left .steps p{
+    color: white;
+    font-weight: 700;
+}
+
+.right {
+    margin-top: 80px;
+}
+
+.right h3 {
+    font-size: 40px;
+}
+
+.right p {
+    font-size: 15px;
+    margin-bottom: 45px;
+    color: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 15px;
+    background: rgb(69, 69, 104);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    width: fit-content;
+    margin-top: 60px;
+    align-self: flex-end;
+}
